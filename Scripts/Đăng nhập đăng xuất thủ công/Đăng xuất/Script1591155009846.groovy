@@ -16,7 +16,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - team1 Mattermost/svg'))
+WebUI.navigateToUrl('http://localhost:8065/')
 
-WebUI.click(findTestObject('Object Repository/Page_Town Square - team1 Mattermost/span_Log Out'))
+WebUI.click(findTestObject('Object Repository/Page_Town Square - team1 Mattermost/button_user1_style--none sidebar-header-dro_1e4a36'))
+
+WebUI.click(findTestObject('Page_Town Square - team1 Mattermost/span_Log Out'))
 

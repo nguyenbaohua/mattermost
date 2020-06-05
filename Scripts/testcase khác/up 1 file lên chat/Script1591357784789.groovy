@@ -14,23 +14,4 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
-
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://localhost:8065/')
-
-for (def i = 1; i <= 3; i++) {
-    WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'), 
-        findTestData('UserNamePassword').getValue('UserName', i))
-
-    WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'), 
-         findTestData('UserNamePassword').getValue('Password', i))
-
-    WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Sign in'))
-
-    WebUI.click(findTestObject('Object Repository/Page_Town Square - team1 Mattermost/button_user2_style--none sidebar-header-dro_a01363'))
-
-    WebUI.click(findTestObject('Page_Town Square - team1 Mattermost/span_Log Out'))
-}
 

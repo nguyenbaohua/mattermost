@@ -20,17 +20,20 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://localhost:8065/')
 
-for (def i = 1; i <= 3; i++) {
-    WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place s_703ef5'), 
-        findTestData('UserNamePassword').getValue('UserName', i))
+WebUI.setText(findTestObject('Page_Mattermost/input_All team communication in one place s_703ef5'), 'user1')
 
-    WebUI.setText(findTestObject('Object Repository/Page_Mattermost/input_All team communication in one place s_2f2733'), 
-         findTestData('UserNamePassword').getValue('Password', i))
+WebUI.setEncryptedText(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), 'RigbBhfdqOBGNlJIWM1ClA==')
 
-    WebUI.click(findTestObject('Object Repository/Page_Mattermost/span_Sign in'))
+WebUI.sendKeys(findTestObject('Page_Mattermost/input_All team communication in one place s_2f2733'), Keys.chord(Keys.ENTER))
 
-    WebUI.click(findTestObject('Object Repository/Page_Town Square - team1 Mattermost/button_user2_style--none sidebar-header-dro_a01363'))
+WebUI.click(findTestObject('Page_(1)  Town Square - team1 Mattermost/button_user1_style--none sidebar-header-dro_1e4a36'))
 
-    WebUI.click(findTestObject('Page_Town Square - team1 Mattermost/span_Log Out'))
-}
+WebUI.click(findTestObject('Object Repository/Page_(1)  Town Square - team1 Mattermost/span_Create a Team'))
+
+WebUI.setText(findTestObject('Object Repository/Page_(1)  Town Square - team1 Mattermost/input_Team Name_teamNameInput'), 
+    'team3')
+
+WebUI.click(findTestObject('Object Repository/Page_(1)  Town Square - team1 Mattermost/button_Next'))
+
+WebUI.click(findTestObject('Object Repository/Page_(1)  Town Square - team1 Mattermost/button_Finish'))
 
