@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Đăng nhập và đăng xuất dữ liệu từ file csv</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8ca200fd-95f4-4b8b-8e57-cd1921fa6b71</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c542901f-b70c-4218-b0b1-37cd33696e28</id>
+      <masked>false</masked>
+      <name>variable</name>
+   </variable>
+</TestCaseEntity>
