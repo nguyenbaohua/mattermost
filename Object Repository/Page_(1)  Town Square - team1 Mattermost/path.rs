@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>ec7dd154-eee3-493d-a14e-bc46a18f7ace</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M11.7732955,8.95397727 C12.0119318,8.90488636 12.2159659,9.11778409 12.1684091,9.35676136 C11.8063636,11.1790909 9.85346591,12.5710227 7.49846591,12.5710227 C5.15096591,12.5710227 3.20284091,11.1877841 2.83193182,9.37397727 C2.78181818,9.129375 2.99267045,8.911875 3.23744318,8.96198864 C4.85369318,9.29232955 10.1786932,9.28142045 11.7732955,8.95397727 Z</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;emojiPickerButton&quot;)/svg[1]/g[1]/g[1]/g[1]/g[1]/path[2]</value>
+   </webElementProperties>
+</WebElementEntity>
